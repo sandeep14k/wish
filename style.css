@@ -117,7 +117,6 @@ img {
 .type-wrap {
     font-size: 25px;
     color: #C4515C;
-
 }
 
 .cake {
@@ -126,4 +125,37 @@ img {
     left: 50%;
     position: absolute;
     padding-top: 250px;
+}
+
+.btn-pink {
+    width: 50%;
+    height: 100px;
+    position: fixed;
+    left: 50%;
+    top: 45%;
+    transform: translateY(-50%);
+    transform: translateX(-50%);
+    background-color: #ff69b4;
+    z-index: 9999999999999999999999;
+    font-size: 50px;
+    outline: none;
+    box-sizing: border-box;
+    border: none;
+    border-radius: .3em;
+    text-transform: uppercase;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, .16), 0 3px 6px rgba(110, 80, 20, .4);
+    color: #fff;
+    cursor: pointer;
+    transition: all .2s ease-in-out;
+}
+
+.btn-pink:hover {
+    background-color: #ff1493;
+}
+
+.countdown {
+    font-size: 2rem;
+    color: #fff;
+    text-align: center;
+    margin-top: 20px;
 }
